@@ -1,0 +1,9 @@
+name: ddp_starter
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - pytorch
+  - pytorch-cuda=11.8
+  - pytorch-lightning
+  - scikit-learn
