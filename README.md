@@ -25,11 +25,10 @@ mamba env create -f environment.yml
 sbatch test_slurm.sh
 ```
 Then check out the logs in `ddp_starter` to see if the run was successful.
----> `Trainer.fit` stopped: `max_epochs=10` reached. <--- means that the run was successful.
+```
+`Trainer.fit` stopped: `max_epochs=10` reached.
+```
+means that the run was successful.
 
 For actual usage with real case trainings, you will need to modify the `batch_size` 
 and `num_workers` to best utilize the available GPU and CPU resources.
-
-### ToDo
-- Add some typical errors and how to fix them
-- Add a simple example for JAX
