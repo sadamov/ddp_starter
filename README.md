@@ -18,10 +18,7 @@ Create a new conda environment and install dependencies:
 ```
 mamba activate base
 mamba env create -f environment.yml
-sed -i 's|${CONDA_PREFIX}|'"$CONDA_PREFIX"'|' test_slurm.sh
 ```
-Do no activate the environment, as this will change the environment variables 
-and break the Slurm job submission.
 
 ### Usage
 ```
