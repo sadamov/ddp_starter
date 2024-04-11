@@ -7,8 +7,10 @@ from sklearn.model_selection import train_test_split
 from torch.nn import functional as F
 from torch.utils.data import DataLoader, TensorDataset
 
+
 class IrisDataModule(pl.LightningDataModule):
     """Data module for the Iris dataset."""
+
     def __init__(self):
         """Initializes the data module."""
         super().__init__()
@@ -33,6 +35,7 @@ class IrisDataModule(pl.LightningDataModule):
 
 class LogisticRegression(pl.LightningModule):
     """Logistic Regression model."""
+
     def __init__(self):
         """Initializes the model."""
         super().__init__()

@@ -1,29 +1,29 @@
-1: num_devices:  4
-1: num_nodes:  2
-0: num_devices:  4
-0: num_nodes:  2
-2: num_devices:  4
-2: num_nodes:  2
-3: num_devices:  4
-3: num_nodes:  2
-7: num_devices:  4
-7: num_nodes:  2
-4: num_devices:  4
-4: num_nodes:  2
-5: num_devices:  4
-5: num_nodes:  2
 6: num_devices:  4
 6: num_nodes:  2
+4: num_devices:  4
+4: num_nodes:  2
+0: num_devices:  4
+0: num_nodes:  2
+5: num_devices:  4
+5: num_nodes:  2
+7: num_devices:  4
+7: num_nodes:  2
+2: num_devices:  4
+2: num_nodes:  2
+1: num_devices:  4
+1: num_nodes:  2
+3: num_devices:  4
+3: num_nodes:  2
 0: Sanity Checking: |          | 0/? [00:00<?, ?it/s]
 0: Sanity Checking:   0% 0/1 [00:00<?, ?it/s]        
 0: Sanity Checking DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
-0: Sanity Checking DataLoader 0: 100% 1/1 [00:00<00:00,  1.66it/s]
+0: Sanity Checking DataLoader 0: 100% 1/1 [00:01<00:00,  1.61s/it]
 0:                                                                
 0: Training: |          | 0/? [00:00<?, ?it/s]
 0: Training:   0% 0/1 [00:00<?, ?it/s]        
 0: Epoch 0:   0% 0/1 [00:00<?, ?it/s] 
-0: Epoch 0: 100% 1/1 [00:00<00:00, 80.05it/s]
-0: Epoch 0: 100% 1/1 [00:00<00:00, 78.99it/s, v_num=0]
+0: Epoch 0: 100% 1/1 [00:00<00:00,  1.80it/s]
+0: Epoch 0: 100% 1/1 [00:00<00:00,  1.80it/s, v_num=4]
 0: 
 0: Validation: |          | 0/? [00:00<?, ?it/s][A
 0: 
@@ -31,17 +31,16 @@
 0: 
 0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
 0: 
-0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 487.09it/s]
-0: [A
+0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 671.73it/s][A
 0: 
 0:                                                            
 0: [A
-0: Epoch 0: 100% 1/1 [00:00<00:00,  2.73it/s, v_num=0]
-0: Epoch 0: 100% 1/1 [00:00<00:00,  2.73it/s, v_num=0]
-0: Epoch 0:   0% 0/1 [00:00<?, ?it/s, v_num=0]        
-0: Epoch 1:   0% 0/1 [00:00<?, ?it/s, v_num=0]
-0: Epoch 1: 100% 1/1 [00:00<00:00,  2.89it/s, v_num=0]
-0: Epoch 1: 100% 1/1 [00:00<00:00,  2.89it/s, v_num=0]
+0: Epoch 0: 100% 1/1 [00:00<00:00,  1.23it/s, v_num=4]
+0: Epoch 0: 100% 1/1 [00:00<00:00,  1.22it/s, v_num=4]
+0: Epoch 0:   0% 0/1 [00:00<?, ?it/s, v_num=4]        
+0: Epoch 1:   0% 0/1 [00:00<?, ?it/s, v_num=4]
+0: Epoch 1: 100% 1/1 [00:00<00:00,  5.02it/s, v_num=4]
+0: Epoch 1: 100% 1/1 [00:00<00:00,  5.01it/s, v_num=4]
 0: 
 0: Validation: |          | 0/? [00:00<?, ?it/s][A
 0: 
@@ -49,49 +48,16 @@
 0: 
 0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
 0: 
-0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 466.60it/s][A
-0: 
-0:                                                            [A
-0: Epoch 1: 100% 1/1 [00:00<00:00,  1.42it/s, v_num=0]
-0: Epoch 1: 100% 1/1 [00:00<00:00,  1.42it/s, v_num=0]
-0: Epoch 1:   0% 0/1 [00:00<?, ?it/s, v_num=0]        
-0: Epoch 2:   0% 0/1 [00:00<?, ?it/s, v_num=0]
-0: Epoch 2: 100% 1/1 [00:00<00:00,  2.94it/s, v_num=0]
-0: Epoch 2: 100% 1/1 [00:00<00:00,  2.93it/s, v_num=0]
-0: 
-0: Validation: |          | 0/? [00:00<?, ?it/s][A
-0: 
-0: Validation:   0% 0/1 [00:00<?, ?it/s]        [A
-0: 
-0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
-0: 
-0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 487.03it/s][A
-0: 
-0:                                                            [A
-0: Epoch 2: 100% 1/1 [00:00<00:00,  1.44it/s, v_num=0]
-0: Epoch 2: 100% 1/1 [00:00<00:00,  1.43it/s, v_num=0]
-0: Epoch 2:   0% 0/1 [00:00<?, ?it/s, v_num=0]        
-0: Epoch 3:   0% 0/1 [00:00<?, ?it/s, v_num=0]
-0: Epoch 3: 100% 1/1 [00:00<00:00,  2.88it/s, v_num=0]
-0: Epoch 3: 100% 1/1 [00:00<00:00,  2.88it/s, v_num=0]
-0: 
-0: Validation: |          | 0/? [00:00<?, ?it/s][A
-0: 
-0: Validation:   0% 0/1 [00:00<?, ?it/s]        
-0: [A
-0: 
-0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
-0: 
-0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 456.30it/s][A
+0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 614.46it/s][A
 0: 
 0:                                                            
 0: [A
-0: Epoch 3: 100% 1/1 [00:00<00:00,  1.43it/s, v_num=0]
-0: Epoch 3: 100% 1/1 [00:00<00:00,  1.43it/s, v_num=0]
-0: Epoch 3:   0% 0/1 [00:00<?, ?it/s, v_num=0]        
-0: Epoch 4:   0% 0/1 [00:00<?, ?it/s, v_num=0]
-0: Epoch 4: 100% 1/1 [00:00<00:00,  2.81it/s, v_num=0]
-0: Epoch 4: 100% 1/1 [00:00<00:00,  2.81it/s, v_num=0]
+0: Epoch 1: 100% 1/1 [00:00<00:00,  2.53it/s, v_num=4]
+0: Epoch 1: 100% 1/1 [00:00<00:00,  2.53it/s, v_num=4]
+0: Epoch 1:   0% 0/1 [00:00<?, ?it/s, v_num=4]        
+0: Epoch 2:   0% 0/1 [00:00<?, ?it/s, v_num=4]
+0: Epoch 2: 100% 1/1 [00:00<00:00,  4.19it/s, v_num=4]
+0: Epoch 2: 100% 1/1 [00:00<00:00,  4.19it/s, v_num=4]
 0: 
 0: Validation: |          | 0/? [00:00<?, ?it/s][A
 0: 
@@ -99,15 +65,15 @@
 0: 
 0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
 0: 
-0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 521.36it/s][A
+0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 616.45it/s][A
 0: 
 0:                                                            [A
-0: Epoch 4: 100% 1/1 [00:00<00:00,  1.43it/s, v_num=0]
-0: Epoch 4: 100% 1/1 [00:00<00:00,  1.43it/s, v_num=0]
-0: Epoch 4:   0% 0/1 [00:00<?, ?it/s, v_num=0]        
-0: Epoch 5:   0% 0/1 [00:00<?, ?it/s, v_num=0]
-0: Epoch 5: 100% 1/1 [00:00<00:00,  2.84it/s, v_num=0]
-0: Epoch 5: 100% 1/1 [00:00<00:00,  2.84it/s, v_num=0]
+0: Epoch 2: 100% 1/1 [00:00<00:00,  2.17it/s, v_num=4]
+0: Epoch 2: 100% 1/1 [00:00<00:00,  2.17it/s, v_num=4]
+0: Epoch 2:   0% 0/1 [00:00<?, ?it/s, v_num=4]        
+0: Epoch 3:   0% 0/1 [00:00<?, ?it/s, v_num=4]
+0: Epoch 3: 100% 1/1 [00:00<00:00,  4.49it/s, v_num=4]
+0: Epoch 3: 100% 1/1 [00:00<00:00,  4.49it/s, v_num=4]
 0: 
 0: Validation: |          | 0/? [00:00<?, ?it/s][A
 0: 
@@ -115,16 +81,16 @@
 0: 
 0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
 0: 
-0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 528.25it/s][A
+0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 645.28it/s][A
 0: 
 0:                                                            
 0: [A
-0: Epoch 5: 100% 1/1 [00:00<00:00,  1.42it/s, v_num=0]
-0: Epoch 5: 100% 1/1 [00:00<00:00,  1.42it/s, v_num=0]
-0: Epoch 5:   0% 0/1 [00:00<?, ?it/s, v_num=0]        
-0: Epoch 6:   0% 0/1 [00:00<?, ?it/s, v_num=0]
-0: Epoch 6: 100% 1/1 [00:00<00:00,  2.86it/s, v_num=0]
-0: Epoch 6: 100% 1/1 [00:00<00:00,  2.86it/s, v_num=0]
+0: Epoch 3: 100% 1/1 [00:00<00:00,  2.26it/s, v_num=4]
+0: Epoch 3: 100% 1/1 [00:00<00:00,  2.26it/s, v_num=4]
+0: Epoch 3:   0% 0/1 [00:00<?, ?it/s, v_num=4]        
+0: Epoch 4:   0% 0/1 [00:00<?, ?it/s, v_num=4]
+0: Epoch 4: 100% 1/1 [00:00<00:00,  5.29it/s, v_num=4]
+0: Epoch 4: 100% 1/1 [00:00<00:00,  5.28it/s, v_num=4]
 0: 
 0: Validation: |          | 0/? [00:00<?, ?it/s][A
 0: 
@@ -132,58 +98,92 @@
 0: 
 0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
 0: 
-0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 469.90it/s][A
+0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 649.88it/s][A
 0: 
-0:                                                            [A
-0: Epoch 6: 100% 1/1 [00:00<00:00,  1.40it/s, v_num=0]
-0: Epoch 6: 100% 1/1 [00:00<00:00,  1.40it/s, v_num=0]
-0: Epoch 6:   0% 0/1 [00:00<?, ?it/s, v_num=0]        
-0: Epoch 7:   0% 0/1 [00:00<?, ?it/s, v_num=0]
-0: Epoch 7: 100% 1/1 [00:00<00:00,  2.85it/s, v_num=0]
-0: Epoch 7: 100% 1/1 [00:00<00:00,  2.84it/s, v_num=0]
-0: 
-0: Validation: |          | 0/? [00:00<?, ?it/s][A
-0: 
-0: Validation:   0% 0/1 [00:00<?, ?it/s]        [A
-0: 
-0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
-0: 
-0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 515.40it/s][A
-0: 
-0:                                                            [A
-0: Epoch 7: 100% 1/1 [00:00<00:00,  1.41it/s, v_num=0]
-0: Epoch 7: 100% 1/1 [00:00<00:00,  1.41it/s, v_num=0]
-0: Epoch 7:   0% 0/1 [00:00<?, ?it/s, v_num=0]        
-0: Epoch 8:   0% 0/1 [00:00<?, ?it/s, v_num=0]
-0: Epoch 8: 100% 1/1 [00:00<00:00,  2.79it/s, v_num=0]
-0: Epoch 8: 100% 1/1 [00:00<00:00,  2.79it/s, v_num=0]
-0: 
-0: Validation: |          | 0/? [00:00<?, ?it/s][A
-0: 
-0: Validation:   0% 0/1 [00:00<?, ?it/s]        [A
-0: 
-0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
-0: 
-0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 513.88it/s][A
-0: 
-0:                                                            [A
-0: Epoch 8: 100% 1/1 [00:00<00:00,  1.41it/s, v_num=0]
-0: Epoch 8: 100% 1/1 [00:00<00:00,  1.41it/s, v_num=0]
-0: Epoch 8:   0% 0/1 [00:00<?, ?it/s, v_num=0]        
-0: Epoch 9:   0% 0/1 [00:00<?, ?it/s, v_num=0]
-0: Epoch 9: 100% 1/1 [00:00<00:00,  2.82it/s, v_num=0]
-0: Epoch 9: 100% 1/1 [00:00<00:00,  2.82it/s, v_num=0]
-0: 
-0: Validation: |          | 0/? [00:00<?, ?it/s][A
-0: 
-0: Validation:   0% 0/1 [00:00<?, ?it/s]        [A
-0: 
-0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
-0: 
-0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 480.17it/s]
+0:                                                            
 0: [A
+0: Epoch 4: 100% 1/1 [00:00<00:00,  2.54it/s, v_num=4]
+0: Epoch 4: 100% 1/1 [00:00<00:00,  2.54it/s, v_num=4]
+0: Epoch 4:   0% 0/1 [00:00<?, ?it/s, v_num=4]        
+0: Epoch 5:   0% 0/1 [00:00<?, ?it/s, v_num=4]
+0: Epoch 5: 100% 1/1 [00:00<00:00,  5.03it/s, v_num=4]
+0: Epoch 5: 100% 1/1 [00:00<00:00,  5.02it/s, v_num=4]
+0: 
+0: Validation: |          | 0/? [00:00<?, ?it/s][A
+0: 
+0: Validation:   0% 0/1 [00:00<?, ?it/s]        [A
+0: 
+0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
+0: 
+0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 660.94it/s][A
 0: 
 0:                                                            [A
-0: Epoch 9: 100% 1/1 [00:00<00:00,  1.41it/s, v_num=0]
-0: Epoch 9: 100% 1/1 [00:00<00:00,  1.41it/s, v_num=0]
-0: Epoch 9: 100% 1/1 [00:00<00:00,  1.40it/s, v_num=0]
+0: Epoch 5: 100% 1/1 [00:00<00:00,  2.43it/s, v_num=4]
+0: Epoch 5: 100% 1/1 [00:00<00:00,  2.42it/s, v_num=4]
+0: Epoch 5:   0% 0/1 [00:00<?, ?it/s, v_num=4]        
+0: Epoch 6:   0% 0/1 [00:00<?, ?it/s, v_num=4]
+0: Epoch 6: 100% 1/1 [00:00<00:00,  4.82it/s, v_num=4]
+0: Epoch 6: 100% 1/1 [00:00<00:00,  4.82it/s, v_num=4]
+0: 
+0: Validation: |          | 0/? [00:00<?, ?it/s][A
+0: 
+0: Validation:   0% 0/1 [00:00<?, ?it/s]        [A
+0: 
+0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
+0: 
+0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 634.64it/s][A
+0: 
+0:                                                            
+0: [A
+0: Epoch 6: 100% 1/1 [00:00<00:00,  2.62it/s, v_num=4]
+0: Epoch 6: 100% 1/1 [00:00<00:00,  2.61it/s, v_num=4]
+0: Epoch 6:   0% 0/1 [00:00<?, ?it/s, v_num=4]        
+0: Epoch 7:   0% 0/1 [00:00<?, ?it/s, v_num=4]
+0: Epoch 7: 100% 1/1 [00:00<00:00,  4.85it/s, v_num=4]
+0: Epoch 7: 100% 1/1 [00:00<00:00,  4.85it/s, v_num=4]
+0: 
+0: Validation: |          | 0/? [00:00<?, ?it/s][A
+0: 
+0: Validation:   0% 0/1 [00:00<?, ?it/s]        [A
+0: 
+0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
+0: 
+0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 654.95it/s][A
+0: 
+0:                                                            
+0: [A
+0: Epoch 7: 100% 1/1 [00:00<00:00,  2.40it/s, v_num=4]
+0: Epoch 7: 100% 1/1 [00:00<00:00,  2.40it/s, v_num=4]
+0: Epoch 7:   0% 0/1 [00:00<?, ?it/s, v_num=4]        
+0: Epoch 8:   0% 0/1 [00:00<?, ?it/s, v_num=4]
+0: Epoch 8: 100% 1/1 [00:00<00:00,  4.62it/s, v_num=4]
+0: Epoch 8: 100% 1/1 [00:00<00:00,  4.61it/s, v_num=4]
+0: 
+0: Validation: |          | 0/? [00:00<?, ?it/s][A
+0: 
+0: Validation:   0% 0/1 [00:00<?, ?it/s]        [A
+0: 
+0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
+0: 
+0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 637.24it/s][A
+0: 
+0:                                                            [A
+0: Epoch 8: 100% 1/1 [00:00<00:00,  2.60it/s, v_num=4]
+0: Epoch 8: 100% 1/1 [00:00<00:00,  2.60it/s, v_num=4]
+0: Epoch 8:   0% 0/1 [00:00<?, ?it/s, v_num=4]        
+0: Epoch 9:   0% 0/1 [00:00<?, ?it/s, v_num=4]
+0: Epoch 9: 100% 1/1 [00:00<00:00,  3.97it/s, v_num=4]
+0: Epoch 9: 100% 1/1 [00:00<00:00,  3.96it/s, v_num=4]
+0: 
+0: Validation: |          | 0/? [00:00<?, ?it/s][A
+0: 
+0: Validation:   0% 0/1 [00:00<?, ?it/s]        [A
+0: 
+0: Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s][A
+0: 
+0: Validation DataLoader 0: 100% 1/1 [00:00<00:00, 595.27it/s][A
+0: 
+0:                                                            [A
+0: Epoch 9: 100% 1/1 [00:00<00:00,  2.22it/s, v_num=4]
+0: Epoch 9: 100% 1/1 [00:00<00:00,  2.22it/s, v_num=4]
+0: Epoch 9: 100% 1/1 [00:00<00:00,  2.19it/s, v_num=4]

@@ -2,28 +2,28 @@
 0: TPU available: False, using: 0 TPU cores
 0: IPU available: False, using: 0 IPUs
 0: HPU available: False, using: 0 HPUs
-0: /scratch/mch/sadamov/neural-ddp/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:67: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
-1: Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/8
-0: Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/8
-2: Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/8
-3: Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/8
+0: /scratch/mch/sadamov/miniforge3/envs/ddp_starter/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:75: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
 7: Initializing distributed: GLOBAL_RANK: 7, MEMBER: 8/8
-4: Initializing distributed: GLOBAL_RANK: 4, MEMBER: 5/8
-5: Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/8
+2: Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/8
 6: Initializing distributed: GLOBAL_RANK: 6, MEMBER: 7/8
+5: Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/8
+0: Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/8
+4: Initializing distributed: GLOBAL_RANK: 4, MEMBER: 5/8
+3: Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/8
+1: Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/8
 0: ----------------------------------------------------------------------------------------------------
 0: distributed_backend=nccl
 0: All distributed processes registered. Starting with 8 processes
 0: ----------------------------------------------------------------------------------------------------
 0: 
-1: LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
-2: LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
-3: LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
 4: LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
 0: LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
 5: LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+1: LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
 6: LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+2: LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
 7: LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+3: LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
 0: 
 0:   | Name   | Type   | Params
 0: ----------------------------------
@@ -33,12 +33,12 @@
 0: 0         Non-trainable params
 0: 15        Total params
 0: 0.000     Total estimated model params size (MB)
-0: SLURM auto-requeueing enabled. Setting signal handlers.
 1: SLURM auto-requeueing enabled. Setting signal handlers.
 2: SLURM auto-requeueing enabled. Setting signal handlers.
+0: SLURM auto-requeueing enabled. Setting signal handlers.
 3: SLURM auto-requeueing enabled. Setting signal handlers.
 4: SLURM auto-requeueing enabled. Setting signal handlers.
+5: SLURM auto-requeueing enabled. Setting signal handlers.
 6: SLURM auto-requeueing enabled. Setting signal handlers.
 7: SLURM auto-requeueing enabled. Setting signal handlers.
-5: SLURM auto-requeueing enabled. Setting signal handlers.
 0: `Trainer.fit` stopped: `max_epochs=10` reached.
