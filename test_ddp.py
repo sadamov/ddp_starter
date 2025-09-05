@@ -1,3 +1,8 @@
+# Author: Simon Adamov
+# Email: simon.adamov@meteoswiss.ch
+# MIT License
+# Copyright (c) 2023 Sadamov
+
 import os
 
 import pytorch_lightning as pl
