@@ -4,7 +4,8 @@ channels:
   - nvidia
   - conda-forge
 dependencies:
+  - python=3.12
   - pytorch
-  - pytorch-cuda=12.1
+  - pytorch-cuda=11.8
   - pytorch-lightning
   - scikit-learn
